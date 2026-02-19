@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Nasia Thomas ePortfolio</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JavaScript/script.js" defer></script>
+</head>
+<body class="page-home">
+
+    <header>
+        <nav id="nav-menu"></nav> 
+    </header>
+
+    <main>
+        <h1>Sample Professional Portfolio</h1>
+
+        <p> Describe how your communication is appropriate to a professional setting: Professional communication focuses on being clear, respectful, and organized to help everyone get their work done efficiently.
+            By staying focused on the task at hand and listening well, I can build trust and keep the environment positive. 
+            This approach makes sure that the message is always easy to follow and stays focused on achieving goals</p>
+
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'Proposal')">Sample Proposal</button>
+            <button class="tab-link" onclick="openTab(event, 'Memo')">Sample Memo</button>
+            <button class="tab-link" onclick="openTab(event, 'Presentation')">Sample Presentation</button>
+            <button class="tab-link" onclick="openTab(event, 'Memo-email')">Sample Memo Email</button>
+            <button class="tab-link" onclick="openTab(event, 'Note')">Sample Note</button>
+            <button class="tab-link" onclick="openTab(event, 'Resume')">My Resume</button>
+        </div>
+
+        <div id="Proposal" class="tab-content active">
+            <h3>Sample Proposal 1</h3>
+            <iframe src="https://bop.nv.gov/uploadedFiles/bopnvgov/content/board/ALL/2024_Meetings/Proposed%20Regulation%20for%20Minimum%20Staffing%20Requirements%20FINAL%20-%20Workshop.pdf" width="100%" height="600px"></iframe>
+            <hr>
+            <h3>Sample Proposal 2</h3>
+            <iframe src="https://msdh.ms.gov/page/resources/19935.pdf" width="100%" height="600px"></iframe>
+        </div>
+
+        <div id="Memo" class="tab-content">
+            <h3>Sample Memo</h3>
+            <iframe src="https://www.dhp.virginia.gov/media/dhpweb/docs/pharmacy/news/2025/Pharmacy12022025.pdf" width="100%" height="600px"></iframe>
+        </div>
+
+        <div id="Presentation" class="tab-content">
+            <h3>Sample Presentation</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CjSxdMhYpMA" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="Note" class="tab-content">
+            <h3>Notes </h3>
+            <iframe src="file:///C:/Users/DNasi/Downloads/Notes%20of%20solo%20presentation.pdf" width="100%" height="600px"></iframe>
+        </div>
+
+        <div id= "Memo-email" class="tab-content">
+            <h3>My Memo and Email </h3>
+            <iframe src="file:///C:/Users/DNasi/Downloads/Problem%20Statement%20&%20Research%20Query2.pdf" width="100%" height="600px"></iframe>
+        </div>
+
+         <div id= "Resume" class="tab-content">
+            <h3>My Resume </h3>
+            <iframe src="file:///C:/Users/DNasi/Downloads/D'Nasia%20Thomas%20Job%20Docs.pdf" width="100%" height="600px"></iframe>
+        </div>
+
+        
+    </main>
+
+    <footer></footer>
+</body>
+</html>

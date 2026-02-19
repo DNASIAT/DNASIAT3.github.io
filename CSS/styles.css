@@ -1,0 +1,411 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+}
+
+/* Typography */
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #a222b8;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Home page styles */
+.page-home {
+    background-color: #F5D5A0;
+}
+.page-home header {
+    background-color: #F5D5A0; 
+}
+.sticker {
+    position: absolute;
+    height: auto;
+}
+
+/* Place  sticker somewhere */
+.sticker-ruler {
+    top: 20px;  
+    right: 30px;  
+    width:200px;
+}
+
+/* Place sticker somewhere else */
+.sticker-pencil {
+    bottom: 10px; 
+    left: 40px;  
+    width:300px; 
+}
+.sticker-books
+
+{
+    top: 300px; 
+    left: 20px;  
+     width: 150px; 
+}
+
+.sticker-Holder
+{
+    top: 200px; 
+    right: 40px; 
+    width: 200px;
+}
+
+.sticker-eraser
+{
+    top: 60px; 
+    right:550px;  
+    width: 80px; 
+}
+
+
+/* About page styles */
+.page-about {
+    background-color: #E6D7B9; 
+}
+.page-about header {
+    background-color: #E6D7B9; 
+}
+
+.sticker-notebookpink
+
+{
+    top: 600px; 
+    left: 170px; 
+     width: 200px; 
+}
+
+.sticker-NOTES
+{
+    top: 170px; 
+    right: 100px;  
+    width: 250px;
+}
+
+.sticker-stickynotebule
+{
+    Top: 800px; 
+    right:40px; 
+    width: 300px; 
+}
+
+
+
+/* Gallerys page styles */
+.page-gallery {
+    background-color: #f1d5d5;
+}
+.page-gallery header {
+    background-color: #f1d5d5; 
+}
+
+.sticker-notesyellow
+
+{
+    top: 200px;
+    left: 50px;  
+     width: 150px; 
+}
+
+.sticker-bricknotes
+{
+    top: 500px; 
+    right: 50px;  
+    width: 200px;
+}
+
+.sticker-light
+{
+    Top: 200px; 
+    right:40px;  
+    width: 200px; 
+}
+
+.sticker-blue
+{
+    Top: 500px; 
+    left:40px;  
+    width: 200px; 
+}
+
+.page-Mypage {
+    background-color: #a4eebc; 
+}
+
+.page-Contactme {
+    background-color: #f1accb; 
+}
+.page-Contactme header {
+    background-color: #f1accb; 
+}
+
+
+.sticker-Bunny
+
+{
+    top: 50px; 
+     width: 270px; 
+}
+
+.sticker-orange
+{
+    top: 500px; 
+    right: 50px;  
+    width: 200px;
+}
+
+.sticker-Pin
+{
+    Top: 800px; 
+    right:40px;  
+    width: 150px; 
+}
+
+.sticker-blue2
+{
+    Top: 700px;
+    left:40px;  
+    width: 200px; 
+}
+
+
+
+header {
+    
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+nav ul li a, nav ul li strong {
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+nav ul li a:hover {
+    background-color: #ffb6c1;
+    color: white;
+}
+
+nav ul li strong {
+    background-color: #a222b8;
+    color: white;
+}
+
+/* Main Content */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Images */
+main img, #profile-pic {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 20px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+/* Buttons */
+button {
+    background-color: #60c6eb;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #09629d;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#password-strength {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#char-count {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #AFDCEC;
+    color: #090604;
+    text-align: center;
+    padding: 2px 0;
+    width: 100%;
+    font-weight: bold;
+}
+
+.footer-links {
+        margin-top: 7px;
+}
+
+.footer-links a {
+    color: #090604;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        width: 95%;
+        padding: 20px;
+    }
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+main ul {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#Pic2 {
+    width: 115px;     /* Make it 200px wide */
+    height: auto;     /* Automatically scale height */
+    border-radius: 10px; /* Optional: rounded corners */
+    display: block;   
+    margin: 20px auto; /* Center it on the page */
+}
+
+/* Tab Buttons Container */
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    border-bottom: 2px solid #487cca;
+}
+
+/* Individual Buttons */
+.tab-link {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #5b98e7;
+    border: 1px solid #3b2cbe;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+}
+
+.tab-link:hover {
+    background: #4be7d3;
+}
+
+.tab-link.active {
+    background: rgb(247, 247, 247);
+    border-bottom: 2px solid rgb(35, 70, 187);
+    margin-bottom: -2px;
+    color: #007bff; /* Change to your primary color */
+}
+
+/* Content Sections */
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #7ce7d0;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
